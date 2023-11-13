@@ -19,3 +19,13 @@ for item in device.items():
 for k,v in device.items():
     print(k,v)
 
+phone={'kim':'1111','lee':'2222','park':'3333'}
+print('kim' in phone)
+print('kang' not in phone)
+
+p=phone
+p['kang']='1234'
+print(phone)
+print(p)
+print(id(phone))
+print(id(p))
