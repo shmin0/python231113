@@ -1,5 +1,7 @@
 # game 
 
+# pip install pygame
+
 import pygame
 import sys
 
