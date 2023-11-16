@@ -3,7 +3,6 @@ from bs4 import BeautifulSoup
 from openpyxl import Workbook
 
 search_keyword='맥북에어'
-
 url = f'https://search.naver.com/search.naver?where=view&sm=tab_jum&query={search_keyword}'
 
 response = requests.get(url)
